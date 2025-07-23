@@ -1,6 +1,7 @@
 # 🧮 USDA SQL Final Project
 
 This project is the final assignment for a SQL course, built using real-world datasets from the **United States Department of Agriculture (USDA)**. 
+> **NB:** The data base file can not be previwed in github .It needs to be downloaded and opened with the appropriate application.
 
 ---
 
