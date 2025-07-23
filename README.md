@@ -17,4 +17,21 @@ This project is the final assignment for a SQL course, built using real-world da
 ---
 
 ## 📂 File Structure
+.
+├── raw_data/                        # Original USDA CSV datasets
+│   ├── cheese_production.csv
+│   ├── coffee_production.csv
+│   ├── egg_production.csv
+│   ├── milk_production.csv
+│   ├── yogurt_production.csv
+│   └── state_lookup.csv
+│
+├── commands-for-preparing-data/    # SQL scripts for database setup
+│   ├── creating-tables.sql         # CREATE TABLE statements
+│   └── cleaning-the-data.sql       # UPDATE statements to clean 'value' fields
+│
+├── queries-usda.sql                # Final SELECT queries for analysis
+├── cleaned-data-base.db            # SQLite database (must be downloaded to view)
+├── README.md                       # Project documentation
+
 
