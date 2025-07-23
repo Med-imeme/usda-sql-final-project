@@ -29,8 +29,8 @@ This project is the final assignment for a SQL course, built using real-world da
   &nbsp;&nbsp;&nbsp;&nbsp;• `creating-tables.sql` – CREATE TABLE statements  
   &nbsp;&nbsp;&nbsp;&nbsp;• `cleaning-the-data.sql` – REPLACE commas in values
 
-- `queries-usda.sql` – Final SQL queries for data analysis  
-- `cleaned-data-base.db` – Final SQLite database (**must be downloaded to view**)  
+- `queries-usda.sql` – SQL queries for data analysis  
+- `cleaned-data-base.db` –SQLite database (**must be downloaded to view**)  
 - `README.md` – Project documentation (this file)
 
 ## 🧪 Sample Query
