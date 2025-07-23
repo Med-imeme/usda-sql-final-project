@@ -26,12 +26,12 @@ This project is the final assignment for a SQL course, built using real-world da
 │   ├── yogurt_production.csv
 │   └── state_lookup.csv
 │
-├── commands-for-preparing-data/    # SQL scripts for database setup
+├── commands-for-preparing-data/    # SQL scripts for database setup and cleaning
 │   ├── creating-tables.sql         # CREATE TABLE statements
 │   └── cleaning-the-data.sql       # UPDATE statements to clean 'value' fields
 │
 ├── queries-usda.sql                # Final SELECT queries for analysis
-├── cleaned-data-base.db            # SQLite database (must be downloaded to view)
-├── README.md                       # Project documentation
+├── cleaned-data-base.db            # Final SQLite database (must be downloaded to view)
+├── README.md                       # Project documentation (this file)
 
 
