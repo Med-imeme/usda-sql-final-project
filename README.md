@@ -17,21 +17,24 @@ This project is the final assignment for a SQL course, built using real-world da
 ---
 
 ## 📂 File Structure
-raw_data/ – Original USDA CSV datasets
-    • cheese_production.csv
-    • coffee_production.csv
-    • egg_production.csv
-    • milk_production.csv
-    • yogurt_production.csv
-    • state_lookup.csv
+- `raw_data/` – Original USDA CSV datasets  
+  &nbsp;&nbsp;&nbsp;&nbsp;• `cheese_production.csv`  
+  &nbsp;&nbsp;&nbsp;&nbsp;• `coffee_production.csv`  
+  &nbsp;&nbsp;&nbsp;&nbsp;• `egg_production.csv`  
+  &nbsp;&nbsp;&nbsp;&nbsp;• `milk_production.csv`  
+  &nbsp;&nbsp;&nbsp;&nbsp;• `yogurt_production.csv`  
+  &nbsp;&nbsp;&nbsp;&nbsp;• `state_lookup.csv`
 
-commands-for-preparing-data/ – SQL scripts for setup and cleanup
-    • creating-tables.sql – CREATE TABLE statements
-    • cleaning-the-data.sql – value cleanup using REPLACE()
+- `commands-for-preparing-data/` – SQL scripts for setup and cleanup  
+  &nbsp;&nbsp;&nbsp;&nbsp;• `creating-tables.sql` – CREATE TABLE statements  
+  &nbsp;&nbsp;&nbsp;&nbsp;• `cleaning-the-data.sql` – REPLACE commas in values
 
-queries-usda.sql – Final queries for data analysis
+- `queries-usda.sql` – Final SQL queries for data analysis  
+- `cleaned-data-base.db` – Final SQLite database (**must be downloaded to view**)  
+- `README.md` – Project documentation (this file)
 
-cleaned-data-base.db – Final SQLite DB (must be downloaded to open)
-
-README.md – Project overview and documentation
-
+## 🧪 Sample Query
+--Total milk production for 2023
+SELECT SUM(Value) AS total_milk_production
+FROM milk_production
+WHERE Year = 2023;
